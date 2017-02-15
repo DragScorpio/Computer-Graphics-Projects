@@ -2,6 +2,7 @@
 Introduction to Computer Graphics with an emphasis on rendering animation with OpenGL
 
 1. Brain Structure Project
+
 Objective
 
 The objective of this homework is to visualize a brain structure from a provided data file. The data file has a clear format indicating XYZ-coordinates of each vertices, as well as referencing vertices of each triangular facets that serve as basic units of the brain structure. Another goal of this homework is to practice using normal vector to each triangular surface in assist to create light source and nice effect on the visualized brain structure.
@@ -15,11 +16,10 @@ The effect of code execution is satisfying. The following figures illustrate par
 Conclusion
 I learned the use of openGL library functions as well as utility functions in creating 3D-visualized result. Specifically, creating a mimicking visualization result in each industries is a desirable tendency. Through this coding experience, I stepped further into the field of scientific visualization.
 
+2. Robotic Animation Project
 
-2. Robotics Arm Animation
-In this project, I augment the robot.c used in the OpenGL Programming Guide (Third edition, version 1.2). In particular, I added two fingers to the robotic arm developed in that example.
-  1)The two fingers should look something like the two fingers diplayed here (note, glutSolidCube was used instead of glutWireCube):
-  
+In this project, I augment the robot.c used in the OpenGL Programming Guide. In particular, I added two fingers to the robotic arm developed in that example.
+  1)The two fingers should look something like the two fingers diplayed here.
   2)The two fingers should pivot at a point near where they join the lower arm, as if they were pinching something.
   3)By pressing the keyboard letter 'O' the fingers should open.
   4)By pressing the keyboard letter 'C' the fingers should close.
